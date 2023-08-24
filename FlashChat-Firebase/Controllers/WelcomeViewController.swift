@@ -14,8 +14,10 @@ class WelcomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-       
+        let fruitBasket = ["Apple", "Pear", "Orange"]
+        for fruit in fruitBasket {
+            print(fruit)
+        }
     }
     
 
