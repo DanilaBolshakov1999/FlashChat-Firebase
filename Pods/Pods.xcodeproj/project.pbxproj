@@ -7,52 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2902B66CAF2EA44B66910D0CA6C400CC /* Pods-FlashChat-Firebase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAA8FD23175AC28161D7E3CE39AA0A1 /* Pods-FlashChat-Firebase-dummy.m */; };
-		4A6F747617B961B6C4EAE3809447461C /* CLTypingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8030002BBB82126CDF2189B1BE43E8F2 /* CLTypingLabel.swift */; };
-		847779D2CFD25ACF33B3AAFD79BF50A0 /* Pods-FlashChat-Firebase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8BC4FE41C94998B3E425DDF4A0A6BE7 /* Pods-FlashChat-Firebase-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D30DF85F3C3685E6F4F251B780E66C89 /* CLTypingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D19317D91B5A91BD99366AAEA0D2CD17 /* CLTypingLabel-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E62E15E9C8A069D88E931A08902D2449 /* CLTypingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB6FA9C61DBE16FF2CDCD64B8E1C8A5 /* CLTypingLabel-dummy.m */; };
+		9AD1A2737962847CA253AD5DE2D5E93D /* Pods-FlashChat-Firebase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD8267639C809799EEEA329801AEFFF /* Pods-FlashChat-Firebase-dummy.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B86E85E185A9245A5D051287F9561DBA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6F8A929BDB6E633BE35459804508532F;
-			remoteInfo = CLTypingLabel;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		201004F178B7D4990A44F2CB2BA297DA /* CLTypingLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CLTypingLabel.modulemap; sourceTree = "<group>"; };
-		23875C20F18CC40B2F29F3DE74B4C785 /* CLTypingLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLTypingLabel.release.xcconfig; sourceTree = "<group>"; };
-		4FB6FA9C61DBE16FF2CDCD64B8E1C8A5 /* CLTypingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CLTypingLabel-dummy.m"; sourceTree = "<group>"; };
-		5158C6D9A0A0ADC5295CC084E6EC59F3 /* Pods-FlashChat-Firebase-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlashChat-Firebase-acknowledgements.plist"; sourceTree = "<group>"; };
-		687281FD2922A46BC4C9FF7553829B6D /* Pods-FlashChat-Firebase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FlashChat-Firebase.modulemap"; sourceTree = "<group>"; };
-		7DB8B5EE1A5D90D12C52F9BBDB997E66 /* CLTypingLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLTypingLabel.debug.xcconfig; sourceTree = "<group>"; };
-		8030002BBB82126CDF2189B1BE43E8F2 /* CLTypingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CLTypingLabel.swift; path = Pod/Classes/CLTypingLabel.swift; sourceTree = "<group>"; };
-		96BFBE1E4F2A7108B35DC0A0C5F1E43F /* CLTypingLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLTypingLabel-prefix.pch"; sourceTree = "<group>"; };
+		020EB3ECA01180046063B08E35D7A7D7 /* Pods-FlashChat-Firebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlashChat-Firebase.debug.xcconfig"; sourceTree = "<group>"; };
+		4A70F57C3902D93EA0EC1B98AFA3B536 /* Pods-FlashChat-Firebase-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlashChat-Firebase-acknowledgements.plist"; sourceTree = "<group>"; };
+		5FCDACF25C781A90057AB06DD5F19862 /* Pods-FlashChat-Firebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlashChat-Firebase.release.xcconfig"; sourceTree = "<group>"; };
+		7DD8267639C809799EEEA329801AEFFF /* Pods-FlashChat-Firebase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlashChat-Firebase-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ADAA8FD23175AC28161D7E3CE39AA0A1 /* Pods-FlashChat-Firebase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlashChat-Firebase-dummy.m"; sourceTree = "<group>"; };
-		B215D148C1D9C166E94A8656C974ED27 /* Pods-FlashChat-Firebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlashChat-Firebase.release.xcconfig"; sourceTree = "<group>"; };
+		A8E316C02A63BC04334762B131D518DF /* Pods-FlashChat-Firebase-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlashChat-Firebase-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B843DAC7774650921D7F5E96462F5FC6 /* Pods-FlashChat-Firebase */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-FlashChat-Firebase"; path = "libPods-FlashChat-Firebase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C25260E6001D3974A869C9BE3F08D1B0 /* Pods-FlashChat-Firebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlashChat-Firebase.debug.xcconfig"; sourceTree = "<group>"; };
-		C8BC4FE41C94998B3E425DDF4A0A6BE7 /* Pods-FlashChat-Firebase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlashChat-Firebase-umbrella.h"; sourceTree = "<group>"; };
-		CE8765B3053874E73AFDC78B5D6B4396 /* CLTypingLabel */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = CLTypingLabel; path = libCLTypingLabel.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D19317D91B5A91BD99366AAEA0D2CD17 /* CLTypingLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLTypingLabel-umbrella.h"; sourceTree = "<group>"; };
-		FF80F6CFA5EF9A2FE38E58396A54803C /* Pods-FlashChat-Firebase-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlashChat-Firebase-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		850273EA9E7D97F5F5DD69538100D1B3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A28A6E816BE8DE2F38D4B6E7F4516765 /* Frameworks */ = {
+		14865A8D8BB30429EBB27427AE86384A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -62,29 +31,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3A848511B55AA3662286C314B25C5202 /* CLTypingLabel */ = {
+		40941451AF44239C5271CF3366215D5E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8030002BBB82126CDF2189B1BE43E8F2 /* CLTypingLabel.swift */,
-				E5363B579C3C337AB4EC212D1AC25A19 /* Support Files */,
-			);
-			name = CLTypingLabel;
-			path = CLTypingLabel;
-			sourceTree = "<group>";
-		};
-		BC391F153E5E4ED6CF4A797C1D0F403F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CE8765B3053874E73AFDC78B5D6B4396 /* CLTypingLabel */,
 				B843DAC7774650921D7F5E96462F5FC6 /* Pods-FlashChat-Firebase */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BC4A0FC545A648FA2C1954694C1546D2 /* Targets Support Files */ = {
+		8EC9ACA035B4A7A7BE33B241077AB515 /* Pods-FlashChat-Firebase */ = {
 			isa = PBXGroup;
 			children = (
-				E6E110B29502B9E79B968E0B29EFE0BA /* Pods-FlashChat-Firebase */,
+				A8E316C02A63BC04334762B131D518DF /* Pods-FlashChat-Firebase-acknowledgements.markdown */,
+				4A70F57C3902D93EA0EC1B98AFA3B536 /* Pods-FlashChat-Firebase-acknowledgements.plist */,
+				7DD8267639C809799EEEA329801AEFFF /* Pods-FlashChat-Firebase-dummy.m */,
+				020EB3ECA01180046063B08E35D7A7D7 /* Pods-FlashChat-Firebase.debug.xcconfig */,
+				5FCDACF25C781A90057AB06DD5F19862 /* Pods-FlashChat-Firebase.release.xcconfig */,
+			);
+			name = "Pods-FlashChat-Firebase";
+			path = "Target Support Files/Pods-FlashChat-Firebase";
+			sourceTree = "<group>";
+		};
+		A88F4935C827D0E1796A29133CE3675A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EC9ACA035B4A7A7BE33B241077AB515 /* Pods-FlashChat-Firebase */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -94,9 +65,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				E5728BA1B8CEEB3143CA35A236294C2C /* Pods */,
-				BC391F153E5E4ED6CF4A797C1D0F403F /* Products */,
-				BC4A0FC545A648FA2C1954694C1546D2 /* Targets Support Files */,
+				40941451AF44239C5271CF3366215D5E /* Products */,
+				A88F4935C827D0E1796A29133CE3675A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,95 +77,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E5363B579C3C337AB4EC212D1AC25A19 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				201004F178B7D4990A44F2CB2BA297DA /* CLTypingLabel.modulemap */,
-				4FB6FA9C61DBE16FF2CDCD64B8E1C8A5 /* CLTypingLabel-dummy.m */,
-				96BFBE1E4F2A7108B35DC0A0C5F1E43F /* CLTypingLabel-prefix.pch */,
-				D19317D91B5A91BD99366AAEA0D2CD17 /* CLTypingLabel-umbrella.h */,
-				7DB8B5EE1A5D90D12C52F9BBDB997E66 /* CLTypingLabel.debug.xcconfig */,
-				23875C20F18CC40B2F29F3DE74B4C785 /* CLTypingLabel.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/CLTypingLabel";
-			sourceTree = "<group>";
-		};
-		E5728BA1B8CEEB3143CA35A236294C2C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3A848511B55AA3662286C314B25C5202 /* CLTypingLabel */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		E6E110B29502B9E79B968E0B29EFE0BA /* Pods-FlashChat-Firebase */ = {
-			isa = PBXGroup;
-			children = (
-				687281FD2922A46BC4C9FF7553829B6D /* Pods-FlashChat-Firebase.modulemap */,
-				FF80F6CFA5EF9A2FE38E58396A54803C /* Pods-FlashChat-Firebase-acknowledgements.markdown */,
-				5158C6D9A0A0ADC5295CC084E6EC59F3 /* Pods-FlashChat-Firebase-acknowledgements.plist */,
-				ADAA8FD23175AC28161D7E3CE39AA0A1 /* Pods-FlashChat-Firebase-dummy.m */,
-				C8BC4FE41C94998B3E425DDF4A0A6BE7 /* Pods-FlashChat-Firebase-umbrella.h */,
-				C25260E6001D3974A869C9BE3F08D1B0 /* Pods-FlashChat-Firebase.debug.xcconfig */,
-				B215D148C1D9C166E94A8656C974ED27 /* Pods-FlashChat-Firebase.release.xcconfig */,
-			);
-			name = "Pods-FlashChat-Firebase";
-			path = "Target Support Files/Pods-FlashChat-Firebase";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2D02054B8912501C1C10EF346610D007 /* Headers */ = {
+		E22888B138099354F16BF340F675E6F3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D30DF85F3C3685E6F4F251B780E66C89 /* CLTypingLabel-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C2D9F33F97A5E53AC4A851B36008419B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				847779D2CFD25ACF33B3AAFD79BF50A0 /* Pods-FlashChat-Firebase-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6F8A929BDB6E633BE35459804508532F /* CLTypingLabel */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AF8F90586D3782473238A62C59C560AA /* Build configuration list for PBXNativeTarget "CLTypingLabel" */;
-			buildPhases = (
-				2D02054B8912501C1C10EF346610D007 /* Headers */,
-				4097D9811A117FCBF3923937C7F8A389 /* Sources */,
-				A28A6E816BE8DE2F38D4B6E7F4516765 /* Frameworks */,
-				A8ED88D5621020922ED7DF01719BB40E /* Copy generated compatibility header */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CLTypingLabel;
-			productName = CLTypingLabel;
-			productReference = CE8765B3053874E73AFDC78B5D6B4396 /* CLTypingLabel */;
-			productType = "com.apple.product-type.library.static";
-		};
 		B9176EB2E72502F629F09092E89BCA30 /* Pods-FlashChat-Firebase */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FBA8185FC8231AF4CF25EC4708DAD6A6 /* Build configuration list for PBXNativeTarget "Pods-FlashChat-Firebase" */;
+			buildConfigurationList = 11DAC2F643DDFA53B17E5C573B66B2B0 /* Build configuration list for PBXNativeTarget "Pods-FlashChat-Firebase" */;
 			buildPhases = (
-				C2D9F33F97A5E53AC4A851B36008419B /* Headers */,
-				35A4B5C58E4FA9790B0EEA0E5038CDBF /* Sources */,
-				850273EA9E7D97F5F5DD69538100D1B3 /* Frameworks */,
+				E22888B138099354F16BF340F675E6F3 /* Headers */,
+				321B7E660B97F35CF38E2112603BEA06 /* Sources */,
+				14865A8D8BB30429EBB27427AE86384A /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DD7B55D5CC6AF3DC3B0BB114991EF89B /* PBXTargetDependency */,
 			);
 			name = "Pods-FlashChat-Firebase";
 			productName = "Pods-FlashChat-Firebase";
@@ -220,98 +125,27 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = BC391F153E5E4ED6CF4A797C1D0F403F /* Products */;
+			productRefGroup = 40941451AF44239C5271CF3366215D5E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6F8A929BDB6E633BE35459804508532F /* CLTypingLabel */,
 				B9176EB2E72502F629F09092E89BCA30 /* Pods-FlashChat-Firebase */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		A8ED88D5621020922ED7DF01719BB40E /* Copy generated compatibility header */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
-				"${PODS_ROOT}/Headers/Public/CLTypingLabel/CLTypingLabel.modulemap",
-				"${PODS_ROOT}/Headers/Public/CLTypingLabel/CLTypingLabel-umbrella.h",
-			);
-			name = "Copy generated compatibility header";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
-				"${BUILT_PRODUCTS_DIR}/CLTypingLabel-umbrella.h",
-				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/CLTypingLabel/CLTypingLabel.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/CLTypingLabel/CLTypingLabel-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		35A4B5C58E4FA9790B0EEA0E5038CDBF /* Sources */ = {
+		321B7E660B97F35CF38E2112603BEA06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2902B66CAF2EA44B66910D0CA6C400CC /* Pods-FlashChat-Firebase-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4097D9811A117FCBF3923937C7F8A389 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4A6F747617B961B6C4EAE3809447461C /* CLTypingLabel.swift in Sources */,
-				E62E15E9C8A069D88E931A08902D2449 /* CLTypingLabel-dummy.m in Sources */,
+				9AD1A2737962847CA253AD5DE2D5E93D /* Pods-FlashChat-Firebase-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		DD7B55D5CC6AF3DC3B0BB114991EF89B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CLTypingLabel;
-			target = 6F8A929BDB6E633BE35459804508532F /* CLTypingLabel */;
-			targetProxy = B86E85E185A9245A5D051287F9561DBA /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		4A710A29BAEAFEE0EE677445229F5A48 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DB8B5EE1A5D90D12C52F9BBDB997E66 /* CLTypingLabel.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/CLTypingLabel/CLTypingLabel-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MODULEMAP_FILE = Headers/Public/CLTypingLabel/CLTypingLabel.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = CLTypingLabel;
-				PRODUCT_NAME = CLTypingLabel;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -378,6 +212,27 @@
 			};
 			name = Debug;
 		};
+		9D55B31CA66B789F3D4CB0ABBD6051B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 020EB3ECA01180046063B08E35D7A7D7 /* Pods-FlashChat-Firebase.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -440,35 +295,9 @@
 			};
 			name = Release;
 		};
-		CF4F575A7EB804175D351022AE882A9C /* Release */ = {
+		CE7ED08F47EF01F8272A6D0CB6713F9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23875C20F18CC40B2F29F3DE74B4C785 /* CLTypingLabel.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/CLTypingLabel/CLTypingLabel-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MODULEMAP_FILE = Headers/Public/CLTypingLabel/CLTypingLabel.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = CLTypingLabel;
-				PRODUCT_NAME = CLTypingLabel;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		E7F62009367AE8F893EED6A56B2C88E0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C25260E6001D3974A869C9BE3F08D1B0 /* Pods-FlashChat-Firebase.debug.xcconfig */;
+			baseConfigurationReference = 5FCDACF25C781A90057AB06DD5F19862 /* Pods-FlashChat-Firebase.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -477,29 +306,6 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FlashChat-Firebase/Pods-FlashChat-Firebase.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		F0573BBBA896F7A12411C89F9A5C0B69 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B215D148C1D9C166E94A8656C974ED27 /* Pods-FlashChat-Firebase.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FlashChat-Firebase/Pods-FlashChat-Firebase.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -514,29 +320,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		11DAC2F643DDFA53B17E5C573B66B2B0 /* Build configuration list for PBXNativeTarget "Pods-FlashChat-Firebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D55B31CA66B789F3D4CB0ABBD6051B3 /* Debug */,
+				CE7ED08F47EF01F8272A6D0CB6713F9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
 				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AF8F90586D3782473238A62C59C560AA /* Build configuration list for PBXNativeTarget "CLTypingLabel" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4A710A29BAEAFEE0EE677445229F5A48 /* Debug */,
-				CF4F575A7EB804175D351022AE882A9C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FBA8185FC8231AF4CF25EC4708DAD6A6 /* Build configuration list for PBXNativeTarget "Pods-FlashChat-Firebase" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E7F62009367AE8F893EED6A56B2C88E0 /* Debug */,
-				F0573BBBA896F7A12411C89F9A5C0B69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
