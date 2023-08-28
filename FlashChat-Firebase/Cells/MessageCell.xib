@@ -38,7 +38,7 @@
                                     <constraint firstItem="Bf4-tN-MLe" firstAttribute="leading" secondItem="HYj-a0-IRc" secondAttribute="leading" constant="10" id="nk8-80-tRl"/>
                                 </constraints>
                             </view>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MeAvatar" translatesAutoresizingMaskIntoConstraints="NO" id="MlT-z4-JeM">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="meAvatar" translatesAutoresizingMaskIntoConstraints="NO" id="MlT-z4-JeM">
                                 <rect key="frame" x="323" y="0.0" width="40" height="101.33333333333333"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="Xto-Rc-wu9"/>
@@ -65,7 +65,7 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="MeAvatar" width="36" height="36"/>
+        <image name="meAvatar" width="36" height="36"/>
         <namedColor name="BrandPurple">
             <color red="0.67500001192092896" green="0.43500000238418579" blue="0.9179999828338623" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

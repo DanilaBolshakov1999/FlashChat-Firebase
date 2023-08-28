@@ -10,13 +10,13 @@ import FirebaseCore
 import FirebaseFirestore
 import FirebaseAuth
 
-class LoginViewController: UIViewController {
+final class LoginViewController: UIViewController {
 
-    @IBOutlet weak var emailTextfield: UITextField!
-    @IBOutlet weak var passwordTextfield: UITextField!
+    @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
     
     @IBAction func loginPressed(_ sender: UIButton) {
-        if let email = emailTextfield.text, let password = passwordTextfield.text {
+        if let email = emailTextField.text, let password = passwordTextField.text {
             Auth.auth().signIn(withEmail: email, password: password) { authResult, error in
                 if let error = error {
                     print(error)

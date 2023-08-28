@@ -1,6 +1,0 @@
-module Pods_FlashChat_Firebase {
-  umbrella header "Pods-FlashChat-Firebase-umbrella.h"
-
-  export *
-  module * { export * }
-}

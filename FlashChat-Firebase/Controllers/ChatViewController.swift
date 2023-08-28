@@ -10,9 +10,9 @@ import FirebaseCore
 import FirebaseFirestore
 import FirebaseAuth
 
-class ChatViewController: UIViewController {
+final class ChatViewController: UIViewController {
     
-    let message: [Message] = [
+    private let message = [
         Message(sender: "1@2.com", body: "Hey!"),
         Message(sender: "a@b.com", body: "Hello"),
         Message(sender: "1@2.com", body: "What's app?")
@@ -21,11 +21,12 @@ class ChatViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var messageTextfield: UITextField!
     
+    let db = Firestore.firestore()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         tableView.dataSource = self
-        tableView.delegate = self
         
         title = K.appName
         navigationItem.hidesBackButton = true
@@ -34,7 +35,20 @@ class ChatViewController: UIViewController {
     }
     
     @IBAction func sendPressed(_ sender: UIButton) {
-        let messageBody = messageTextfield.text //Storing the message text
+        if let messageBody = messageTextfield.text, let messageSender = Auth.auth().currentUser?.email {
+            db.collection(K.FStore.collectionName).addDocument(data: [
+                K.FStore.senderField: messageBody,
+                K.FStore.dateField: messageSender
+            ]) { (error) in
+                if let error = error {
+                    print("There was an issue saving data of firestore, \(error)")
+                } else {
+                    print("Successfully saved data!")
+                }
+            }
+        }
+        
+        
         
     }
     
@@ -46,24 +60,20 @@ class ChatViewController: UIViewController {
           print("Error signing out: %@", signOutError)
         }
     }
-    
 }
 
 extension ChatViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return message.count
+        message.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "ReusableCell", for: indexPath) as! MessageCell
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "ReusableCell", for: indexPath) as? MessageCell else { return UITableViewCell() }
         let person = message[indexPath.row]
         cell.textLabel?.text = person.body
         return cell
     }
-}
+    
+    
 
-extension ChatViewController: UITableViewDelegate {
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print(indexPath.row)
-    }
 }
